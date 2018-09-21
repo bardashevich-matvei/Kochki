@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cell {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.active {
+    background: black;
+}
+
+.person {
+    width: 25px;
+    height: 25px;
+    background: url("chel.png") no-repeat;
+}
+
+body {
+    background-color: lightcyan;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
